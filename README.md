@@ -1,5 +1,5 @@
 # Group-Project
-This assignment is based on the solution to the previous assignment. Remember that you created four
+This assignment is based on the solution to the previous assignment. We created four
 game characters:
 ● CuriousBunny
 ● HappyPig
