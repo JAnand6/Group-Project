@@ -85,7 +85,7 @@ public class AngryDuck extends Waterfowl implements Attacker, Teleporter
      public void teleport()
      {
 
-           System.out.println(getName() + " is teleporting")
+           System.out.println(getName() + " is teleporting");
 
      }
      
