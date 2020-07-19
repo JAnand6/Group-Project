@@ -78,7 +78,7 @@ System.out.println("Can the bunny fight ");
 System.out.println("What is the bunnyname " + curiousBunny.getName() + " and it's colour is  " + curiousBunny.getPrimaryColor());
 curiousBunny.hit();
 curiousBunny.hit();
-System.out.println("Can th ebunny hope ");
+System.out.println("Can the bunny hope ");
 curiousBunny.hop();
 curiousBunny.hit();
 
