@@ -1,28 +1,6 @@
 public class LoudGoose extends WaterFowl implements Attacker
 {
 
-public void getPosition()
-{
-
-     int x = 0;
-     int y = 500;
-     int z = 1000;
-
-     System.out.print(getName() + " is now at position X = ");
-     int pos1 = (int)(Math.random() * (z - y + 1) + y);
-     System.out.print(pos1 + " and ");
-     int pos2 = (int)(Math.random() * (z - x + 1) + x);
-     System.out.println("Y = " + pos2);
-
-}
- 
- public void teleport()
-{
-
-     System.out.println(getName() + " is teleporting");
-
-}
- 
 //variable declaration for health and for count of kills    
      int health;
      int getkillCount;
@@ -81,8 +59,30 @@ public LoudGoose()// constructor for LoudGoose
                  
                  }  
                     
-}
+          }
 
- }
-     
+       }
+ 
+ public void getPosition()
+{
+
+     int x = 0;
+     int y = 500;
+     int z = 1000;
+
+     System.out.print(getName() + " is now at position X = ");
+     int pos1 = (int)(Math.random() * (z - y + 1) + y);
+     System.out.print(pos1 + " and ");
+     int pos2 = (int)(Math.random() * (z - x + 1) + x);
+     System.out.println("Y = " + pos2);
+
+}
+ 
+ public void teleport()
+{
+
+     System.out.println(getName() + " is teleporting");
+
+}
+      
 }
