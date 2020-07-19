@@ -12,7 +12,7 @@ public class AngryDuck extends Waterfowl implements Attacker, Teleporter
           int pos1 = (int)(Math.random() * (y - x + 1) + x);
           System.out.print(pos1 + ", ");
           int pos2 = (int)(Math.random() * (z - x + 1) + x);
-          System.out.print(pos2);
+          System.out.println(pos2);
 
      }
 
