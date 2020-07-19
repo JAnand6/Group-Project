@@ -8,11 +8,11 @@ public void getPosition()
      int y = 500;
      int z = 1000;
 
-     System.out.print(getName() + " is now at position ");
+     System.out.print(getName() + " is now at position X = ");
      int pos1 = (int)(Math.random() * (z - y + 1) + y);
-     System.out.print(pos1 + ", ");
+     System.out.print(pos1 + " and ");
      int pos2 = (int)(Math.random() * (z - x + 1) + x);
-     System.out.print(pos2);
+     System.out.println("Y = " + pos2);
 
 }
  
