@@ -8,7 +8,7 @@ public class AngryDuck extends Waterfowl implements Attacker, Teleporter
           int y = 500;
           int z = 1000;
 
-          System.out.println(getName() + " is now at position ");
+          System.out.print(getName() + " is now at position ");
           int pos1 = (int)(Math.random() * (y - x + 1) + x);
           System.out.print(pos1 + ", ");
           int pos2 = (int)(Math.random() * (z - x + 1) + x);
