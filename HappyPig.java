@@ -1,7 +1,7 @@
 public class HappyPig extends Animal
 {
      
- public HappyPig()
+ public HappyPig(String a, String b)
  {
    Animal happyPig = new Animal();
    

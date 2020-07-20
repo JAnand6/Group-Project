@@ -1,11 +1,11 @@
-public class LoudGoose extends WaterFowl implements Attacker
+public class LoudGoose extends WaterFowl //implements Attacker
 {
 
 //variable declaration for health and for count of kills    
      int health;
      int getkillCount;
      
-public LoudGoose()// constructor for LoudGoose
+public LoudGoose(String a, String b)// constructor for LoudGoose
      
  {
    super();
@@ -14,9 +14,9 @@ public LoudGoose()// constructor for LoudGoose
    
    Animal loudGoose = new Animal(); //object creation for Animal
    
-   loudGoose.setName("LoudGoose");
+   loudGoose.setName(a);
    
-   loudGoose.setColor("Grey");
+   loudGoose.setColor(b);
    System.out.println(loudGoose);
  }
 
@@ -34,34 +34,6 @@ public LoudGoose()// constructor for LoudGoose
    
    }
    
-     // method attack with boolean to check the condition for attck
-     public boolean attack(Animal animal)
-     {
-          int goalOfHealth = animal.gethealth();
-          
-            if(!(animalloudGoose) && health > 0 )
-          {
-               if(goalOfHealth==1)
-               {
-                    this.getkillCount++;
-                     // setting the health after getting a kill point
-                    ((Attacker)animal).sethealth(goalOfHealth);
-                    System.out.println("The attack is done " + animal.getClass() + animal.setName() + "The number of count are" + this.getkillCount());
-                    return true;
-                    
-               }
-          
-                 else
-                 {
-                 System.out.println("The attack is not done done " + animal.getClass() + animal.setName());
-                  return false;
-                 
-                 
-                 }  
-                    
-          }
-
-       }
  
  public void getPosition()
 {

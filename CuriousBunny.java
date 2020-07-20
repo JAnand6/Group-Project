@@ -1,13 +1,13 @@
 public class CuriousBunny extends Animal
 {
      
- public CuriousBunny()
+ public CuriousBunny(String a, String b)
  {
    Animal curiousBunny = new Animal();
    
-   curiousBunny.setName("CuriousBunny");
+   curiousBunny.setName(a);
    
-   curiousBunny.setColor("Pink");
+   curiousBunny.setColor(b);
    System.out.println(curiousBunny);
  }
      
