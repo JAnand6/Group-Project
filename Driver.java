@@ -51,7 +51,7 @@ System.out.println("Its Name is " + happyPig.getName() + " and it's " + happyPig
 happyPig.hit();
 happyPig.hit();
                    
-System.out.println("Can it still roll ");
+System.out.println("Can it still roll? ");
 happyPig.roll();
 System.out.println("Can it sleep?");
 happyPig.sleep();
@@ -65,10 +65,10 @@ System.out.println();
 System.out.println();
 
 System.out.println("Can the bunny fight ");
-System.out.println("What is the bunnyname " + curiousBunny.getName() + " and it's colour is  " + curiousBunny.getColor());
+System.out.println("What is the bunny's name " + curiousBunny.getName() + " and it's colour is  " + curiousBunny.getColor());
 curiousBunny.hit();
 curiousBunny.hit();
-System.out.println("Can the bunny hope ");
+System.out.println("Can the bunny hop ");
 curiousBunny.hop();
 curiousBunny.hit();
 
