@@ -2,18 +2,21 @@ public class Driver {
 
 public static void main(String[] args) {
 
-CuriousBunny curiousBunny = new CuriousBunny("Scorbunny", "white");
-HappyPig happyPig = new HappyPig("Swinub", "brown");
+CuriousBunny curiousBunny = new CuriousBunny("Scorbunny", "White");
+HappyPig happyPig = new HappyPig("HappyPig", "Black");
 LoudGoose loudGoose = new LoudGoose("Zapdos", "Yellow");
 AngryDuck angryDuck = new AngryDuck("Psyduck", "Yellow");
 
+System.out.println();
 
-Animal a1 = new AngryDuck("www", "Yes"); 
-System.out.println("new animal's name is: " + a1.getName()); 
+Animal a1 = new AngryDuck("Psyduck", "Yellow"); 
+angryDuck.setName("Psyduck");
+System.out.println("New animal's name is: " + angryDuck.getName()); 
+angryDuck.setColor("Yellow");
 
 System.out.println("Total alive animals: " + Animal.count);
 System.out.println("AngryDuck wants to fight!");
-System.out.println("Its Name is " + angryDuck.getName() + " and it's " + angryDuck.getColor());
+System.out.println("Its Name is " + angryDuck.getName() + " and it's color is " + angryDuck.getColor());
 angryDuck.hit();
 angryDuck.hit();
 System.out.println("Can the angry duck swim?");
@@ -29,15 +32,17 @@ System.out.println("Can angryDuck still fly ? ");
 angryDuck.fly();
 System.out.println("The number of animal still alive: " + Animal.count);
   
-
 angryDuck.getPosition();
-angryDuck.teleport(); 
+angryDuck.teleport();
   
 System.out.println();
 System.out.println();
 
 System.out.println("LoudGoose wants to fight");
-System.out.println("Its Name is " + loudGoose.getName() + " and it's " + loudGoose.getColor());
+loudGoose.setName("Zapdos");
+loudGoose.setColor("Yellow");
+
+System.out.println("Its Name is " + loudGoose.getName() + " and it's color is " + loudGoose.getColor());
 loudGoose.hit();
 loudGoose.hit();
 System.out.println("Can the goose swim?");
@@ -48,12 +53,19 @@ loudGoose.hit();
 
 System.out.println("Can loudGoose still fly ?");
 loudGoose.fly();
+
+loudGoose.getPosition();
+loudGoose.teleport();
+
 System.out.println("Total alive animals: " + Animal.count);
+
 System.out.println();
 System.out.println();
 
 System.out.println("HappyPig wants to fight");
-System.out.println("Its Name is " + happyPig.getName() + " and it's " + happyPig.getColor());
+happyPig.setName("Swinub");
+happyPig.setColor("Black");
+System.out.println("Its Name is " + happyPig.getName() + " and it's color is " + happyPig.getColor());
 happyPig.hit();
 happyPig.hit();
                    
@@ -71,6 +83,8 @@ System.out.println();
 System.out.println();
 
 System.out.println("Can the bunny fight ");
+curiousBunny.setName("Scorbunny");
+curiousBunny.setColor("White");
 System.out.println("What is the bunny's name " + curiousBunny.getName() + " and it's colour is  " + curiousBunny.getColor());
 curiousBunny.hit();
 curiousBunny.hit();
