@@ -1,4 +1,4 @@
-public class LoudGoose extends WaterFowl //implements Attacker
+public class LoudGoose extends WaterFowl, Teleporter //implements Attacker
 {
 
 //variable declaration for health and for count of kills    
