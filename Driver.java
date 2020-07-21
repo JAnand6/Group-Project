@@ -29,9 +29,9 @@ System.out.println("Can angryDuck still fly ? ");
 angryDuck.fly();
 System.out.println("The number of animal still alive: " + Animal.count);
   
-  
-angryduck.teleport(); 
-System.out.println("What is the position of the Duck?" + angryduck.getposition());
+
+angryDuck.getPosition();
+angryDuck.teleport(); 
   
 System.out.println();
 System.out.println();
