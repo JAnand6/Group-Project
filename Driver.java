@@ -7,6 +7,7 @@ HappyPig happyPig = new HappyPig("Swinub", "brown");
 LoudGoose loudGoose = new LoudGoose("Zapdos", "Yellow");
 AngryDuck angryDuck = new AngryDuck("Psyduck", "Yellow");
 
+
 Animal a1 = new AngryDuck("www", "Yes"); 
 System.out.println("new animal's name is: " + a1.getName()); 
 
@@ -27,6 +28,11 @@ angryDuck.hit();
 System.out.println("Can angryDuck still fly ? ");
 angryDuck.fly();
 System.out.println("The number of animal still alive: " + Animal.count);
+  
+  
+angryduck.teleport(); 
+System.out.println("What is the position of the Duck?" + angryduck.getposition());
+  
 System.out.println();
 System.out.println();
 
