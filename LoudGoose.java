@@ -41,6 +41,8 @@ public LoudGoose(String a, String b)// constructor for LoudGoose
      int x = 0;
      int y = 500;
      int z = 1000;
+      
+     System.out.println(getName() + " is at position X = " + x + " and at Y " + y);
 
      System.out.print(getName() + " is now at position X = ");
      int pos1 = (int)(Math.random() * (z - y + 1) + y);
